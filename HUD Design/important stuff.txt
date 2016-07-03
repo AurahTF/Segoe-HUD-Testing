@@ -1,0 +1,54 @@
+//quickplay
+browse servers
+//console
+//items
+//shop
+//training
+//mvm
+//replays
+//comp
+//create a sever
+workshop
+
+//twitch
+//news
+//FAVOURITE
+//contracts
+
+//quit
+//view achievements
+//developer commentary
+//be a coach
+//report a bug
+//options
+//adv options
+
+toggle minmode
+//toggle console
+demoui
+
+Version 1.0
+mainmenu
+team select
+class select
+health
+ammo
+spec gui
+motd panel
+server msg
+medic
+
+Version 2.0
+timer
+koth timer
+killstreak
+3d model
+engi stuff
+ctf
+spy disguise
+meters and counters x4
+
+Version 3.0
+compedative
+tournament  mode
+rest of item meters
