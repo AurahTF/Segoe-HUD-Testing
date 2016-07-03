@@ -18,35 +18,13 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		//Custom Metro Colors
-		"MetroBlue"				"58 181 225 255"
-		"MetroWhite"			"236 244 246 255"
-		"MetroLightGrey"		"203 203 203 255"
-		"MetroDarkGrey"			"85 86 88 255"
-		
-		//qtc colors
-		"framebg"			"10 10 10 255"
-		"qtcblack"			"30 30 30 255"
-		"qtcblue"			"175 205 235 255"
-		"qtcred"			"235 75 75 255"
-		"qtctransgray"		"50 50 50 220"
-		"qtcwhite"			"235 235 235 255"
-		"qtcdarkerwhite"	"210 210 210 255"
-		"qtcflv"			"102 206 255 255"
-		"qtcflvdim1"			"112 222 255 255"
-		"qtcflvdim2"			"90 176 225 255"
-		"qtcorange"			"243 168 71 255"
-		"qtcorangedim1"			"255 170 78 255"
-		"qtcorangedim2"			"243 168 71 255"
-		"qtcgreen"			"101 233 107 255"
-		"qtcgreendim1"			"96 243 117 255"
-		"qtcgreendim2"			"111 238 114 255"
-		"qtcpink"			"255 140 193 255"	
-		"qtcpinkdim1"			"255 150 198 255"
-		"qtcpinkdim2"			"255 130 188 255"
-		"qtcblueflv"		"102 206 255 255"
-		"qtcblueflvdim1"		"112 222 255 255"
-		"qtcblueflvdim2"		"90 176 225 255"
+		//Custom Metro Colors For The Main Menu
+		"MetroBlue"				"58 181 225 240"
+		"MetroWhite"			"236 244 246 240"
+		"MetroLightGrey"		"203 203 203 240"
+		"MetroDarkGrey"			"85 86 88 200"
+		"MetroBlue"				"62 166 255 240"
+		"MetroBlueFade"			"62 166 255 155"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -796,7 +774,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -806,7 +784,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -816,7 +794,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -825,7 +803,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -834,7 +812,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -846,7 +824,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -859,7 +837,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -872,7 +850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -884,7 +862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -895,7 +873,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -906,7 +884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -918,7 +896,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -929,7 +907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -940,7 +918,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -951,7 +929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -964,7 +942,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -977,7 +955,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -989,7 +967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1000,7 +978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1011,7 +989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1046,7 +1024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1068,7 +1046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1079,7 +1057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1090,7 +1068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1101,7 +1079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1112,7 +1090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1123,7 +1101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1294,7 +1272,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1489,7 +1467,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1499,7 +1477,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1510,7 +1488,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1642,7 +1620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1656,7 +1634,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1668,7 +1646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1680,7 +1658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1695,7 +1673,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1707,7 +1685,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1717,7 +1695,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1727,7 +1705,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1736,7 +1714,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1745,7 +1723,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1757,7 +1735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1780,7 +1758,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1791,7 +1769,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2060,7 +2038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2070,7 +2048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2080,7 +2058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2108,7 +2086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2117,7 +2095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2156,7 +2134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2167,7 +2145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2178,7 +2156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2264,7 +2242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2275,7 +2253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2286,7 +2264,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2297,7 +2275,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2308,7 +2286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2329,7 +2307,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2340,7 +2318,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2351,7 +2329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2363,7 +2341,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2374,7 +2352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2529,7 +2507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2538,7 +2516,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2547,7 +2525,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2560,7 +2538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2570,7 +2548,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2580,7 +2558,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2594,7 +2572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2603,7 +2581,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2612,7 +2590,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2625,7 +2603,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2637,7 +2615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2649,7 +2627,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2757,7 +2735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2821,7 +2799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2832,7 +2810,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2843,7 +2821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2856,7 +2834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2867,7 +2845,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2884,7 +2862,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2895,7 +2873,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2907,7 +2885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI Bold"
+				"name"		"Segoe UI"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2915,16 +2893,8 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		
-		Blocks
-		{
-			"1"
-			{
-				"name"		"Blocks"
-				"tall"		"7"
-				"antialias" "1"
-			}
-		}
+
+
 		
 		Health
 		{
@@ -2952,6 +2922,125 @@ Scheme
 			{
 				"name"		"Entypo"
 				"tall"		"35"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil8
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil9
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"9"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil10
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil12
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil14
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil16
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil18
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil20
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		SegoeUIBold/Semil24
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil32
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil44
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		
+		SegoeUIBold/Semil64
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"64"
 				"antialias" "1"
 			}
 		}
@@ -5744,8 +5833,8 @@ Scheme
 		}
 		"12"
 		{
-			"font"	"resource/fonts/Blocks.ttf"
-			"name"	"Blocks"
+			"font"	"resource/fonts/segoeui-bold-semil.ttf"
+			"name"	"Segoe UI Bold/Semil"
 		}
 		"13"
 		{

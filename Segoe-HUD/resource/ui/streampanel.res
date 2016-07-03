@@ -100,20 +100,6 @@
 		"fgcolor"		"203 203 203 255"
 	}
 	
-	"DisplayNameLabelBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"DisplayNameLabelBG"
-		"xpos"			"65"
-		"ypos"			"5"
-		"zpos"			"-10"
-		"wide"			"135"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"236 244 246 255"
-	}
-	
 	"TextDescriptionLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -130,20 +116,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 244 246 255"
-	}
-	
-	"TextDescriptionLabelBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TextDescriptionLabelBG"
-		"xpos"			"65"
-		"ypos"			"25"
-		"zpos"			"-10"
-		"wide"			"135"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"62 166 255 255"
 	}
 
 	"ViewerCountLabel"
