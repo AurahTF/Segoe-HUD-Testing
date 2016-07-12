@@ -1,5 +1,22 @@
 "GameMenu" [$WIN32]
 {
+//Comp Update Test
+	"FindAGameButton"
+ 	{
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+ 		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"1"
+ 	}
+	
+	"FindAGameButtonHalfWidth"
+ 	{
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyInGame"	"1"
+ 	}
++
 //Labels Only At Menu
 	"SegoeHUD"
 	{

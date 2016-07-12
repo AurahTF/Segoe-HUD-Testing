@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Health"
+		"font"			"SegoeUIBold44"
 		"fgcolor"		"255 255 255 220"
 	}
 	"PlayerStatusHealthValueBG"
@@ -105,7 +105,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Health"
+		"font"			"SegoeUIBold44"
 		"fgcolor"		"50 50 50 220"
 	}	
 	"PlayerStatusBleedImage"

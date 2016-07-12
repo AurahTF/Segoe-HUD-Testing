@@ -1,5 +1,25 @@
 "Resource/HudLayout.res"
 {
+	HudCrosshairs
+	{
+		"visible" 		"0"
+		"enabled" 		"0"
+		
+		"labelText"		"a"
+		
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HudCrosshairs"
+		"zpos"			"-100"
+		"xpos" 		 	"c-25"
+		"ypos" 		 	"c-25"
+		"wide" 		 	"50"
+		"tall" 		 	"50"
+		
+		"font"			"Crosshairs"
+		"textAlignment"	"center"
+		"fgcolor" 		"255 255 255 255"
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -422,7 +442,17 @@
 
 	HudDamageIndicator
 	{
-
+		"fieldName" 
+		"HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "10"
+		"MaximumWidth" "10"            
+		"StartRadius" "80"
+		"EndRadius" "80"
+		"MinimumHeight" "30"
+		"MaximumHeight" "60"
+		"MinimumTime" "1"
 	}
 
 	HudCommentary
@@ -826,7 +856,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"1"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]
@@ -1066,7 +1096,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"260"
+		"tall"					"300"
 	}
 
 	HudTeamSwitch
@@ -1440,19 +1470,7 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
-	}
-
+	
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
