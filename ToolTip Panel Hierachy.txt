@@ -1,0 +1,6 @@
+callout arrow
+storehighlightpanel
+	titlelabel
+	textlabel
+	close button
+		sub image

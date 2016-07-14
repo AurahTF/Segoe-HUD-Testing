@@ -36,14 +36,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
@@ -96,12 +92,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-100"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"c0"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"c-60"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"300"
+		"tall"			"f0"
 	}
 	
 	HudDemomanCharge
@@ -232,10 +226,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
+		"xpos"					"315"
 		"ypos"					"r152"
-		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -1001,7 +993,6 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"

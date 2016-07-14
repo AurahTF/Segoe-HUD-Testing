@@ -1,0 +1,29 @@
+//===========================================
+
+
+event HudLowAmmoPulse {RunEvent LowAmmoPulse 0}
+event LowAmmoPulse
+{
+    Animate	AmmoInClip		FgColor		"MetroAmmo"	        Accel 0.0 0.0
+	Animate	AmmoInReserve	FgColor		"MetroAmmoLow"      Accel 0.0 0.0
+	Animate	AmmoNoClip		FgColor		"MetroAmmoLow"	    Accel 0.0 0.0
+	
+	RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent LowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+
+    Animate	AmmoInClip		FgColor		"MetroAmmo"	    Accel 0.0 0.0
+	Animate	AmmoInReserve	FgColor		"MetroAmmo"    	Accel 0.0 0.0
+	Animate	AmmoNoClip		FgColor		"MetroAmmo"	    Accel 0.0 0.0
+}
+
+//===========================================

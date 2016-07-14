@@ -4036,7 +4036,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"SEE YA"
-		"font"			"SegoeUIBold14"
+		"font"			"CustomSegoe14"
 		"textAlignment"	"south-west"
 		"use_proportional_insets" "1"
 		"dulltext"		"0"

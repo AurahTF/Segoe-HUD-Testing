@@ -1,0 +1,58 @@
+TO DO 
+MOTD PANEL
+QUEST LOG PANELS
+STREAM PANEL
+NOTIFICATION PANEL
+
+source hud design
+
+rays hud make damgage red bars samller
+
+chat
+
+crosshairs
+
+health
+ammo
+player
+bars
+
+fix motd panel - wait for reply from jarate king
+
+RELEASE DATE AIM 12/7/16
+
+Notes
+replace training button with event promo
+get corf to make installer
+#base research
+ask jarate king howo make fade in on the menu
+figure out chat stuff
+figure out vtf and font stuff
+figure out source engine hud editing stuff
+learn more about borders
+
+V2.0
+wiethood auto exec
+closedcaptions
+autoupdater #base referance
+
+quickplay
+
+after MM
+tidy up health file
+remake main menu
+do bars
+scorebaord/winpanel maybe
+chat and crosshairs
+
+ASK JARATE KING
+Fade in on the menu
+#base 
+referenicing clientshceme nnoto
+ui2 folder
+hide motd panel
+refracting
+why health and ammo is so complicated
+
+EXTRA
+Have items like the cow mangler and bison have bars were ammo meters usally are
