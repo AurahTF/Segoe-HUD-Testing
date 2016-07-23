@@ -27,18 +27,25 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"labelText"			"<"
-		"bgcolor_override"	"0 0 0 220"
-		"fgcolor"		"White"
 		"font"			"DefaultVerySmall"
 		"textAlignment"	"center"
 
 		"proportionaltoparent"	"1"
-		"paintbackground"	"1"
 		"command"	"prev"
 		"actionsignallevel" "2"
-
-		"defaultBgColor_override"	"0 0 0 150"
-		"armedBgColor_override"		"0 0 0 200"
+		
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"62 166 255 155"
+		"armedBgColor_override"		"236 244 246 240"
+		"depressedBgColor_override"	"236 244 246 240"
+		
+		"defaultFgColor_override"	"236 244 246 240"
+		"armedFgColor_override" 	"62 166 255 240"
+		"depressedFgColor_override" "62 166 255 240"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 
 	"NextButton"
@@ -100,7 +107,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 }

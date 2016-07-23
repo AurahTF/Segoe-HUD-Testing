@@ -334,13 +334,14 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"		"0 0 0 155"
 		
 		"TipSubLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"HudFontSmall"
+			"font"			"CustomSegoe12"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -352,7 +353,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"MetroGrey"
 			"wrap"			"1"
 		}
 		
@@ -360,7 +361,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CustomSegoe14"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -372,7 +373,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"MetroWhite"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -480,6 +481,7 @@
 		}
 	}
 
+//Not in use anymore
 	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -487,8 +489,8 @@
 		"xpos"			"285"
 		"ypos"			"c-95"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"0"	//37
+		"tall"			"0"	//37
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -581,6 +583,7 @@
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
 	}
 
+//Not in use anymore
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -588,8 +591,8 @@
 		"xpos"			"328"
 		"ypos"			"c-52"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"0"	//37
+		"tall"			"0"	//37
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -715,16 +718,17 @@
 			}
 		}
 	}
-	
+
+//Not in use anymore	
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"328"
-		"ypos"			"c-95"
+		"xpos"			"c268"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"0"	//32
+		"tall"			"0"	//32
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -743,42 +747,29 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"37"
-			"tall"			"37"
+			"wide"			"32"
+			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsety"	"-31"
-			"textinsetx"	"4"
-			"labelText"		"%"
-			"use_proportional_insets" "1"
-			"font"			"Entypo"
+			"labelText"		""
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 
+			"actionsignallevel" "2"
 			"Command"		"motd_show"
 			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"			"1"
-			"paintborder"				"0"
-			
-			"defaultBgColor_override"	"236 244 246 240"
-			"armedBgColor_override"		"175 175 175 200"
-			"depressedBgColor_override"	"236 244 246 240"
-			"defaultFgColor_override"	"203 203 203 255"
-			"armedFgColor_override" 	"236 244 246 240"
-			"depressedFgColor_override" "85 86 88 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			
-			"image_drawcolor"	"203 203 203 255"
-			"image_armedcolor"	"85 86 88 255"
+			"paintbackground" "0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
 			{
@@ -789,8 +780,8 @@
 				"zpos"			"1"
 				"wide"			"32"
 				"tall"			"32"
-				"visible"		"0"
-				"enabled"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"image"			"button_MOTD"
 				"scaleImage"	"1"
 			}
@@ -801,15 +792,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"370"
-		"ypos"			"c-180"
+		"xpos"			"c5"
+		"ypos"			"65"
 		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"250"
+		"wide"			"300"
+		"tall"			"350"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"1"
-		"border"		"NoBorder"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
@@ -822,80 +813,51 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"300"
-			"tall"			"25"
+			"tall"			"22"
 			"visible"		"1"
 			
 			"MOTD_HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"SegoeUISemil16"
-				"textAlignment"	"south-west"
-				"labelText"		"NEW COMMUNITY ITEMS"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"textinsetx"	"5"
-				"textinsety"	"-5"
-				"wide"			"200"
-				"tall"			"25"
+				"wide"			"300"
+				"tall"			"24"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
+				"PaintBackgroundType" "2"
 				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"141 178 61 255"
 			}
-		}
-		
-		"MOTD_BG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTD_BG"
-			"xpos"			"0"
-			"ypos"			"25"
-			"zpos"			"-10"
-			"wide"			"200"
-			"tall"			"205"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"0 0 0 155"
-		}
-		
-		"MOTD_TOPBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTD_BG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"25"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"236 244 246 240"
 		}
 		
 		"MOTD_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"176"
-			"ypos"			"0"
+			"xpos"			"282"
+			"ypos"			"4"
 			"zpos"			"10"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"14"
+			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsety"	"-20"
-			"labeltext"		"X"
-			"font"			"EntypoSmall"
+			"labeltext"		""
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+			"actionsignallevel"	"2"
 
 			"navDown"			"MOTD_URLButton"
 			"navActivate"		"<QuickplayButton"
@@ -904,19 +866,16 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"motd_hide"
 			
-			"paintbackground"			"1"
+			"paintbackground"	"0"
 			
-			"defaultBgColor_override"	"0 0 0 0"
-			"armedBgColor_override"		"85 86 88 255"
-			"depressedBgColor_override"	"85 86 88 255"
-			"defaultFgColor_override"	"203 203 203 255"
-			"armedFgColor_override" 	"236 244 246 255"
-			"depressedFgColor_override" "236 244 246 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			//"defaultFgColor_override" "235 226 202 255"
+			//"armedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"236 244 246 240"
-			"image_armedcolor"	"62 166 255 155"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -926,8 +885,8 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"0"
-				"enabled"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -952,13 +911,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"SegoeUISemil12"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%motdtitle%"
-			"textAlignment"	"north-west"
-			"textinsetx"	"5"
-			"xpos"			"0"
+			"textAlignment"	"west"
+			"xpos"			"10"
 			"ypos"			"25"
-			"wide"			"200"
+			"wide"			"250"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -972,12 +930,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"SegoeUISemil12"
+			"font"			"HudFontSmall"
 			"labelText"		"%motddate%"
-			"textAlignment"	"north-east"
-			"xpos"			"0"
-			"ypos"			"25"
-			"wide"			"180"
+			"textAlignment"	"north-west"
+			"xpos"			"10"
+			"ypos"			"40"
+			"wide"			"300"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -993,8 +951,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"55"
 			"zpos"			"99"
-			"wide"			"200"
-			"tall"			"40"
+			"wide"			"250"
+			"tall"			"150"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"item_bg"
@@ -1007,9 +965,9 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"5"
+			"ypos"			"55"
 			"zpos"			"100"
-			"wide"			"150"
+			"wide"			"250"
 			"tall"			"150"
 			"visible"		"1"
 			"proportionaltoparent" "1"
@@ -1021,8 +979,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"150"
-				"tall"			"150"
+				"wide"			"250"
+				"tall"			"250"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"class_icons/filter_all"
@@ -1034,12 +992,12 @@
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"0"
-			"ypos"			"115"
-			"wide"			"200"
+			"xpos"			"20"
+			"ypos"			"215"
+			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor"		"236 244 246 255"
+			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
 			{
@@ -1047,8 +1005,8 @@
 				"fieldName"		"MOTD_TextPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"200"
-				"tall"			"115"
+				"wide"			"250"
+				"tall"			"300"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 			
@@ -1056,19 +1014,18 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"SegoeUI14"
+					"font"			"HudFontSmall"
 					"labelText"		"%motdtext%"
-					"textAlignment"	"west"
-					"textinsetx"	"5"
+					"textAlignment"	"north-west"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"200"
-					"tall"			"115"
+					"wide"			"250"
+					"tall"			"300"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"236 244 246 255"
+					"fgcolor"		"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -1078,26 +1035,27 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
-			"xpos"			"0"
-			"ypos"			"225"
-			"wide"			"200"
-			"tall"			"25"
+			"xpos"			"75"
+			"ypos"			"rs1.2"
+			"wide"			"150"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"READ MORE"
-			"textinsetx"	"5"
-			"textinsety"	"-5"
+			"labelText"		"#MMenu_MOTD_URL"
+			"textinsetx"	"20"
 			"use_proportional_insets" "1"
-			"font"			"SegoeUISemil14"
-			"textAlignment"	"south-west"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
+			"actionsignallevel"	"2"
+
 
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_PrevButton"
@@ -1106,19 +1064,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"paintbackground"			"1"
-			
-			"defaultBgColor_override"	"236 244 246 240"
-			"armedBgColor_override"		"175 175 175 200"
-			"depressedBgColor_override"	"236 244 246 240"
-			"defaultFgColor_override"	"203 203 203 255"
-			"armedFgColor_override" 	"236 244 246 240"
-			"depressedFgColor_override" "85 86 88 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			
-			"image_drawcolor"	"203 203 203 255"
-			"image_armedcolor"	"85 86 88 255"
+			"defaultFgColor_override" "235 226 202 255"
+			"defaultBgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "235 226 202 255"
 		}	
 		
 		"MOTD_PrevButton"
@@ -1142,6 +1091,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_prev"
+			"actionsignallevel"	"2"
 
 			"navUp"			"MOTD_CloseButton"
 			"navRight"		"MOTD_URLButton"
@@ -1189,6 +1139,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_next"
+			"actionsignallevel"	"2"
 
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_URLButton"
@@ -1890,7 +1841,8 @@
 		}
 	}
 	
-//Custom Labels, Only At The Main Menu	
+//Custom Labels, Only At The Main Menu
+//Not in use anymore - temp
 	"WelcomeBack"
 	{
 		"ControlName"	"EditablePanel"
@@ -1898,8 +1850,8 @@
 		"xpos"			"r215"
 		"ypos"			"60"
 		"zpos"			"0"
-		"wide"			"200"
-		"tall"			"30"
+		"wide"			"0"	//200
+		"tall"			"0"	//30
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -1956,7 +1908,8 @@
 			}
 		}
 	}
-	
+
+//Not in use anymore - temp
 	"SegoeHUD"
 	{
 		"ControlName"	"EditablePanel"
@@ -1964,8 +1917,8 @@
 		"xpos"			"r215"
 		"ypos"			"c-85"
 		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"30"
+		"wide"			"0"	//100
+		"tall"			"0"	//30
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -2027,8 +1980,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Version"
-		"xpos"			"r155"
-		"ypos"			"c-65"
+		"xpos"			"r105"
+		"ypos"			"5"
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
@@ -2050,8 +2003,8 @@
 			"textinsetx"				"0"
 			"use_proportional_insets" 	"1"
 			"labelText"					""
-			"font"						"SegoeUIBold18"
-			"textAlignment"				"west"
+			"font"						"CustomSegoe12"
+			"textAlignment"				"north-east"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
@@ -2071,6 +2024,74 @@
 			
 			"image_drawcolor"	"203 203 203 255"
 			"image_armedcolor"	"85 86 88 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"5"
+				"ypos"			"5"
+				"zpos"			"1"
+				"wide"			"30"
+				"tall"			"30"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
+//Buttons Only At Main Menu
+	
+	"NewUserForum"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"NewUserForum"
+		"xpos"			"295"
+		"ypos"			"437"
+		"wide"			"110"
+		"tall"			"40"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"110"
+			"tall"						"40"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"textinsetx"				"5"
+			"textinsety"				"-5"
+			"use_proportional_insets" 	"1"
+			"labelText"					""
+			"font"						"CustomSegoe14"
+			"textAlignment"				"south-west"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"1"
+			
+			"defaultBgColor_override"	"236 244 246 240"
+			"armedBgColor_override"		"203 203 203 240"
+			"depressedBgColor_override"	"236 244 246 240"
+			"defaultFgColor_override"	"203 203 203 240"
+			"armedFgColor_override" 	"236 244 246 240"
+			"depressedFgColor_override" "203 203 203 240"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"image_drawcolor"	"85 86 88 255"
+			"image_armedcolor"	"203 203 203 255"
 
 			"SubImage"
 			{
@@ -2169,7 +2190,7 @@
 		}
 	}
 
-//Not Using This, Plan To Make A Main Menu Vairient Using The Drop Down Feature
+//Not Using This, Plan To Use It For A Custom Options Dropdown
 	"PlayListContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -2352,7 +2373,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-//Not Using - Delete This	
+//Not Using - Delete This - Container to support menu drop down
 	"ItemsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -2692,7 +2713,7 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					"labeltext"		"view WAR"
 					"proportionaltoparent"	"1"
-					"command"		"view_update_comic"
+					"command"		"view_war"
 					"actionsignallevel"	"4"
 			
 					"paintbackground"	"1"
@@ -3430,7 +3451,8 @@
 			}				
 		}
 	}	
-	
+
+//Not in use	
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3438,8 +3460,8 @@
 		"xpos"			"c-158"
 		"ypos"			"437"
 		"zpos"			"2"
-		"wide"			"30"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -3477,7 +3499,8 @@
 			"scaleImage"	"1"
 		}				
 	}		
-	
+
+//Not in use	
 	"AchievementsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3485,8 +3508,8 @@
 		"xpos"			"c-133"
 		"ypos"			"437"
 		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -3525,6 +3548,7 @@
 		}				
 	}		
 	
+//Not in use	
 	"CommentaryButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3532,8 +3556,8 @@
 		"xpos"			"c-108"
 		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -3571,7 +3595,8 @@
 			"scaleImage"	"1"
 		}				
 	}		
-	
+
+//Not in use	
 	"CoachPlayersButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3579,8 +3604,8 @@
 		"xpos"			"c-83"
 		"ypos"			"437"
 		"zpos"			"5"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -3619,6 +3644,7 @@
 		}				
 	}		
 
+//Not in use
 	"WorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3626,8 +3652,8 @@
 		"xpos"			"c-63"
 		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -3665,7 +3691,8 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+
+//Not in use	
 	"ReportBugButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -3673,8 +3700,8 @@
 		"xpos"			"c-14"
 		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"25"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"

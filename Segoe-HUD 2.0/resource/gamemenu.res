@@ -7,17 +7,62 @@
 		"command" "engine showconsole; echo HUD Made By Arora"
 		"OnlyAtMenu"	"1"
 	}
+	//Moved to both menus
 	"Version"
 	{
-		"label" "Version 1.0"
+		"label" "version 1.0"
 		"command" "engine showconsole; echo Version 1.0 Beta"
-		"OnlyAtMenu"	"1"
+//		"OnlyAtMenu"	"1"
 	}
 	"WelcomeBack"
 	{
 		"label" "Welcome Back, Player"
 		"command" "engine showconsole; echo Thanks For Using My HUD"
 		"OnlyAtMenu"	"1"
+	}
+//Buttons only at main menu
+	
+	"NewUserForum"
+	{
+		"label"			"new user FORUM"
+		"command"		"view_newuser_forums"
+		"OnlyAtMenu"	"1"
+	}
+	"Achievements"
+	{
+		"label"			"my ACHIEVEMENTS"
+		"command"		"OpenAchievementsDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"DeveloperCommentary"
+	{
+		"label"			"developer COMMENTARY"
+		"command"		"OpenLoadSingleplayerCommentaryDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"CoachPlayers"
+	{
+		"label"			"be a COACH"
+		"command"		"engine cl_coach_toggle"
+		"OnlyAtMenu"	"1"
+	}
+	"CommunityWorkshop"
+	{
+		"label"			"community WORKSHOP"
+		"command"		"engine OpenSteamWorkshopDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"ReportABug"
+	{
+		"label"			"report a BUG"
+		"command"		"engine bug"
+		"OnlyAtMenu"	"1"
+	}
+	"CompTemp"
+	{
+		"label"			"COMP TEMP"
+		"command"		"play_competitive"
+		"subimage" 		"icon_resume"
 	}
 //Custom Buttons
 	"Quickplay"
@@ -67,6 +112,27 @@
 		"Label"	"REPLAYS"
 		"command"	"engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
+	}
+	"MOTD"
+	{
+		"Label"	""
+		"command"	"motd_show"
+		"subimage" ""
+		"tooltip"	"message of the DAY"
+	}
+	"Stream"
+	{
+		"Label"	""
+		"command"	"watch_stream"
+		"subimage" ""
+		"tooltip"	"live STREAMS"
+	}
+	"Contracts"
+	{
+		"Label"	""
+		"command"	"questlog"
+		"subimage" ""
+		"tooltip"	"contracts DRAWER"
 	}
 //Valvo Buttons
 	"ResumeGameButton"
