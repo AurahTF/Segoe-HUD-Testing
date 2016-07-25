@@ -2985,6 +2985,16 @@ Scheme
 			}
 		}
 		
+		ClassIcons72
+		{
+			"1"
+			{
+				"name"		"ClassIcons"
+				"tall"		"72"
+				"antialias" "1"
+			}
+		}
+		
 		CustomSegoe8
 		{
 			"1"
@@ -6002,6 +6012,11 @@ Scheme
 		{
 			"font"	"resource/fonts/Crosshairs.ttf"
 			"name"	"Crosshairs"
+		}
+		"17"
+		{
+			"font"	"resource/fonts/ClassIcons.ttf"
+			"name"	"ClassIcons"
 		}
 	}
 }

@@ -988,8 +988,8 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"ypos"			"275"
-		"wide"	 		"320"
+		"ypos"			"0"
+		"wide"	 		"200"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}

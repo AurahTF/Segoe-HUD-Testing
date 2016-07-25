@@ -222,7 +222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -230,7 +230,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -238,7 +238,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -247,7 +247,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -256,7 +256,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -310,12 +310,12 @@ Scheme
 				"symbol"	"1"
 			}
 		}
-		
+
 		"MarlettSmall"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Marlett"
 				"tall"		"7"
 				"weight"	"0"
 				"yres"		"480 599"
@@ -323,7 +323,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
+				"name"		"Marlett"
 				"tall"		"9"
 				"weight"	"0"
 				"yres"		"600 767"
@@ -331,7 +331,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"Marlett"
 				"tall"		"11"
 				"weight"	"0"
 				"yres"		"768 1023"
@@ -339,7 +339,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
+				"name"		"Marlett"
 				"tall"		"13"
 				"weight"	"0"
 				"yres"		"1024 1199"
@@ -347,7 +347,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
+				"name"		"Marlett"
 				"tall"		"17"
 				"weight"	"0"
 				"yres"		"1200 10000"
@@ -359,7 +359,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"12"	[$WIN32]
 				"tall"		"15"	[$X360]
 				"weight"	"700"
@@ -368,7 +368,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"14"	[$WIN32]
 				"tall"		"17"	[$X360]
 				"weight"	"700"
@@ -377,7 +377,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"15"	[$WIN32]
 				"tall"		"18"	[$X360]
 				"weight"	"700"
@@ -386,7 +386,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"17"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"700"
@@ -395,7 +395,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
+				"name"		"Verdana"
 				"tall"		"22"	[$WIN32]
 				"tall"		"25"	[$X360]
 				"weight"	"700"
@@ -847,8 +847,8 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"
 		"3"
 		{
-			"font"	"resource/fonts/segoeui.ttf"
-			"name"	"Segoe UI"
+			"font"	"resource/fonts/segoeuil.ttf"
+			"name"	"Segoe UI Light"
 		}
 	}
 }
