@@ -6,10 +6,10 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"MetroBuff"
+		"NegativeColor"			"MetroYellow"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"SegoeUI12"
+		"delta_item_font"		"SegoeUI18"
 		"delta_item_font_big"	"SegoeUI24"
 	}
 	"DamageAccountValue"
@@ -26,7 +26,7 @@
 		"labelText"				"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"			"east"
-		"fgcolor"				"MetroWhite"
+		"fgcolor"				"MetroDamage"
 		"font"					"SegoeUI20"
 	}
 	"DamageAccountValueBG"
@@ -43,7 +43,7 @@
 		"labelText"				"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"			"east"
-		"fgcolor"				"MetroDarkGrey"
+		"fgcolor"				"MetroDamageBG"
 		"font"					"SegoeUI20"
 	}
 }

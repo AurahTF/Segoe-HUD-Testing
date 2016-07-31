@@ -18,16 +18,18 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		//Custom Metro Colors For The Main Menu
-//?		"MetroBlue"				"58 181 225 240"
+		//Custom Metro Colors
 		"MetroWhite"			"236 244 246 240"
 		"MetroLightGrey"		"203 203 203 240"
 		"MetroDarkGrey"			"85 86 88 200"
-		"MetroBlue"				"62 166 255 240"
-		"MetroBlueFade"			"62 166 255 155"
-		"MetroGreen"			"0 163 0 240"
+		"MetroBlue"				"45 137 239	240"
+		"MetroBlueFade"			"45 137 239 180"
+		"MetroLightBlue"		"62 166 255 240"
+		"MetroLightGreen"		"72 103 32 240"
+		"MetroGreen"			"72 133 32 240"
 		"MetroRed"				"238 17 17 240"
 		"MetroOrange"			"218 83 44 240"
+		"MetroYellow"			"255 196 13 255"
 		
 		"MetroHealthBGAnimation"			"236 244 246 240"
 		"MetroHealthBG"			"85 86 88 200"
@@ -42,6 +44,9 @@ Scheme
 		"MetroUberPercentageCrossahir"	"236 244 246 240"
 		"MetroMedicCounter"	"236 244 246 240"
 		"MetroUberPercentage"	"236 244 246 240"
+		
+		"MetroDamage"			"236 244 246 0"
+		"MetroDamageBG"			"85 86 88 0"
 
 		// base colors
 		"Orange"			"178 82 22 255"
