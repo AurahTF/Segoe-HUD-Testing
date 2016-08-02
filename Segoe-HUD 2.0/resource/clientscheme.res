@@ -2960,6 +2960,36 @@ Scheme
 			}
 		}
 		
+		HealthMin
+		{
+			"1"
+			{
+				"name"		"BoldNumbers"
+				"tall"		"44"
+				"antialias"	"1"
+			}
+		}
+
+		AmmoMin
+		{
+			"1"
+			{
+				"name"		"BoldNumbers"
+				"tall"		"44"
+				"antialias"	"1"
+			}
+		}
+		
+		AmmoSmallMin
+		{
+			"1"
+			{
+				"name"		"MediumNumbers"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		
 		Crosshairs
 		{
 			"1"

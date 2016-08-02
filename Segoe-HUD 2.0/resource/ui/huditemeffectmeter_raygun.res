@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Raygun.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,11 +7,13 @@
 		"enabled"		"1"
 		"xpos"			"c-60"
 		"xpos_minmode"			"c-65"
-		"ypos"			"r86"
-		"ypos_minmode"			"r40"
+		"ypos"			"r93"
+		"ypos_minmode"			"r47"
 		"wide"			"120"
 		"wide_minmode"			"130"
 		"tall"			"20"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -19,7 +21,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
@@ -50,7 +52,7 @@
 		"enabled"				"1"
 		"enabled_minmode"				"0"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -68,7 +70,7 @@
 		"zpos"			"2"
 		"wide"			"120"
 		"wide_minmode"			"130"
-		"tall"			"6"					
+		"tall"			"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
