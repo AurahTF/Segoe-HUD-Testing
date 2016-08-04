@@ -101,13 +101,11 @@
 		"zpos"					"1"
 		"wide"					"f0"
 		"tall"					"f0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
-
-		"bgcolor_override"		"0 0 0 0"
 	}
 
 }

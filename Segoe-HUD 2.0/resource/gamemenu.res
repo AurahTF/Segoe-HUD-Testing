@@ -57,7 +57,7 @@
 	{
 		"label"			"play NOW"
 		"command"		"play_casual"
-		"subimage" 		"icon_resume"
+		"subimage" 		"glyph_multiplayer"
 	}
 //	"Training"
 //	{

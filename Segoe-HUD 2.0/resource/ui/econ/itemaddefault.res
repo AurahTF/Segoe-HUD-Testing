@@ -15,14 +15,32 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 
 		"paintborder"	"1"
 		"border"		"NoBorder"
+	}
+	
+	"CustomBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"CustomBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"1"
+		"wide"					"f0"
+		"tall"					"f0"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"MetroDarkGrey"
+		"PaintBackgroundType"	"0"
 	}
 
 	"ItemName"
@@ -38,7 +56,7 @@
 		"proportionaltoparent"	"1"
 
 		"font"			"AdFont_ItemName"
-		"fgcolor_override"	"236 244 246 255"
+		"fgcolor_override"	"MetroWhite"
 		"textinsetx"	"5"
 		"textinsety"	"5"
 		"textAlignment"	"north-west"
@@ -107,7 +125,7 @@
 			"proportionaltoparent"	"1"
 
 			"font"			"SegoeUI8"
-			"fgcolor_override"	"163 163 163 255"
+			"fgcolor_override"	"MetroWhite"
 			"textinsetx"	"10"
 			"textinsety"	"0"
 			"textAlignment"	"north-west"
@@ -177,7 +195,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MarketButton"
-		"xpos"		"r70"
+		"xpos"		"r50"
 		"ypos"		"r15"
 		"zpos"		"100"
 		"wide"		"60"
@@ -192,13 +210,13 @@
 		"command"	"market"
 		"actionsignallevel" "2"
 
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"White"
+		"defaultFgColor_override"	"MetroWhite"
+		"armedFgColor_override"		"MetroWhite"
 
 		"border_default"	"NoBorder"
 
-		"defaultBgColor_override"	"72 103 32 255"
-		"armedBgColor_override"		"72 133 32 255"
+		"defaultBgColor_override"	"MetroLightGreen"
+		"armedBgColor_override"		"MetroGreen"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -1,24 +1,23 @@
+#base "../scripts/crosshairs.res"
+
 "Resource/HudLayout.res"
 {
-	HudCrosshairs
+	"AegisCross"
 	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"labelText"		"a"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrosshairs"
-		"zpos"			"-100"
-		"xpos" 		 	"c-25"
-		"ypos" 		 	"c-25"
-		"wide" 		 	"50"
-		"tall" 		 	"50"
-		
-		"font"			"Crosshairs"
-		"textAlignment"	"center"
-		"fgcolor" 		"255 255 255 255"
-	}
+		"controlName"  								"CExLabel"
+		"fieldName"     							"AegisCross"
+		"visible"    								"0"
+		"enabled"   								"1"
+		"zpos"      								"-1000"
+		"xpos"      								"c-14"
+		"ypos"      								"c-11"
+		"wide"      								"25"
+		"tall"      								"24"
+		"font"      								"Crosshairs"
+		"labelText"    								"k"
+		"fgcolor"    								"255 255 255 255"
+		"textAlignment"  							"center"
+    }
 	
 	HudPlayerStatus
 	{

@@ -23,7 +23,7 @@ Scheme
 		"MetroLightGrey"		"203 203 203 240"
 		"MetroDarkGrey"			"85 86 88 200"
 		"MetroBlue"				"45 137 239	240"
-		"MetroBlueFade"			"45 137 239 180"
+		"MetroBlueFade"			"45 137 239 200"
 		"MetroLightBlue"		"62 166 255 240"
 		"MetroLightGreen"		"72 103 32 240"
 		"MetroGreen"			"72 133 32 240"
@@ -3115,6 +3115,16 @@ Scheme
 			{
 				"name"		"Segoe UI Bold/Semil"
 				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		CustomSegoe28
+		{
+			"1"
+			{
+				"name"		"Segoe UI Bold/Semil"
+				"tall"		"28"
 				"antialias" "1"
 			}
 		}

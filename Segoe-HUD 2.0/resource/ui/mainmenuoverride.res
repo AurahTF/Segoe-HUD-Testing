@@ -382,11 +382,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
-		"ypos"			"28"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
+		"xpos"			"85"
+		"ypos"			"c-222"
+		"zpos"			"1"
+		"wide"			"37"
+		"tall"			"37"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -418,7 +418,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"SegoeUISemil8"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"16"
@@ -430,7 +430,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"MetroWhite"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -440,29 +440,39 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"40"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
+			"labelText"		"c"
+			"textinsety"	"-30"
+			"font"			"Entypo"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"actionsignallevel" "2"
 
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"paintbackground"			"1"
+			
+			"defaultBgColor_override"	"MetroBlueFade"
+			"armedBgColor_override"		"MetroWhite"
+			"depressedBgColor_override"	"MetroWhite"
+			"defaultFgColor_override"	"MetroWhite"
+			"armedFgColor_override" 	"MetroBlue"
+			"depressedFgColor_override" "MetroBlue"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"image_drawcolor"	"236 244 246 240"
+			"image_armedcolor"	"62 166 255 155"
 			
 			"SubImage"
 			{
@@ -473,8 +483,8 @@
 				"zpos"			"1"
 				"wide"			"32"
 				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"button_Alert"
 				"scaleImage"	"1"
 			}
@@ -1452,7 +1462,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"CustomSegoe24"
+			"font"			"CustomSegoe28"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2371,7 +2381,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Achievements"
-		"xpos"			"390"
+		"xpos"			"365"
 		"ypos"			"437"
 		"wide"			"110"
 		"tall"			"40"
@@ -2437,7 +2447,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DeveloperCommentary"
-		"xpos"			"505"
+		"xpos"			"480"
 		"ypos"			"437"
 		"wide"			"145"
 		"tall"			"40"
@@ -2503,7 +2513,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CoachPlayers"
-		"xpos"			"655"
+		"xpos"			"630"
 		"ypos"			"437"
 		"wide"			"75"
 		"tall"			"40"
@@ -2569,9 +2579,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CommunityWorkshop"
-		"xpos"			"735"
+		"xpos"			"710"
 		"ypos"			"437"
-		"wide"			"120"
+		"wide"			"140"
 		"tall"			"40"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -2582,7 +2592,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"120"
+			"wide"						"140"
 			"tall"						"40"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -3114,18 +3124,18 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"ViewDetailsGlow"
-				"xpos"			"p0.02"
-				"ypos"			"27"
-				"zpos"			"10"
-				"wide"			"p0.48"
-				"tall"			"26"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
 				"proportionaltoparent"	"1"
 
 				"paintborder"	"0"
 				"border"	"MainMenuButtonGlow"
 				"paintbackground"		"3"
-				"bgcolor_override"	"238 103 17 255"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			"ViewDetailsButton"
@@ -3184,18 +3194,18 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"ViewWarButtonGlow"
-				"xpos"			"p0.5"
-				"ypos"			"27"
-				"zpos"			"10"
-				"wide"			"124"
-				"tall"			"26"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
 				"proportionaltoparent"	"1"
 
 				"paintborder"	"0"
 				"border"	"NoBorder"
 				"paintbackground"		"3"
-				"bgcolor_override"	"238 103 17 255"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			"ViewWarButton"
@@ -3240,12 +3250,12 @@
 			
 					"paintbackground"	"1"
 			
-					"defaultBgColor_override"	"62 166 255 155"
-					"armedBgColor_override"		"236 244 246 240"
-					"depressedBgColor_override"	"236 244 246 240"
-					"defaultFgColor_override"	"236 244 246 240"
-					"armedFgColor_override" 	"62 166 255 240"
-					"depressedFgColor_override" "62 166 255 240"
+					"defaultBgColor_override"	"MetroBlueFade"
+					"armedBgColor_override"		"MetroWhite"
+					"depressedBgColor_override"	"MetroWhite"
+					"defaultFgColor_override"	"MetroWhite"
+					"armedFgColor_override" 	"MetroBlue"
+					"depressedFgColor_override" "MetroBlue"
 					"border_default"			"NoBorder"
 					"border_armed"				"NoBorder"
 				}
@@ -3301,7 +3311,7 @@
 
 	} // EventPromo
 
-//No Idea What Safe Mode Is
+//No Idea What Safe Mode Is - Could be to do with abandoning comp and casual games
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
@@ -4270,8 +4280,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"OPTIONS"
-		"font"			"SegoeUIBold14"
+		"labelText"		"SETTINGS"
+		"font"			"CustomSegoe14"
 		"textAlignment"	"south-west"
 		"use_proportional_insets" "1"
 		"dulltext"		"0"

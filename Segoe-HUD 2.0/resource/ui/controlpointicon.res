@@ -113,7 +113,7 @@
 		"font"			"ControlPointTimer"
 		"font_minmode"	"ControlPointTimerSmaller"
 	}
-				
+
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
